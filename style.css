@@ -1,0 +1,105 @@
+h1{
+    background-color: #fdfd93;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, Press_Start_2p;
+}
+
+p{
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#2c2c2c;
+    text-size-adjust: 78%;
+}
+
+div.links{
+    background-color: #fdfd93;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.container{
+    width: 300px;
+    margin: 0 10px 0 10px;
+    background-color: #e97910;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 13px;
+    padding-right: 13px;
+    text-align: center;
+}
+
+div.container img{
+    width: 280px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 330px;
+}
+video{
+    width: 300px;
+    height: 330px;
+}
+p{
+    background-color: #f8f8b7;
+
+}
+html{
+    background-color: #ffffa5;
+}
+/*drop down button*/
+.dropbtn{
+        background-color: #fdfd93; 
+        color: #2c2c2c;
+        padding: 16px;
+        font-size: 16px;
+        border:none;
+        cursor: pointer;
+}
+/* the content with in div*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+/*dropdown content*/
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f8f8b7;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+/*links inside the dropdown*/
+.dropdown-content a{
+    color: #a9a9a9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/*changing the color of drop down*/
+.dropdown-content a:hover{
+    background-color: #ffffb4;
+}
+/*show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/*change back ground coloure of button*/
+.dropdown:hover .dropbtn {
+    background-color: #fdfdd9;
+}
+
+footer {
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    background-color: #e97910;
+    margin: 50px auto;
+    padding: 100px 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
